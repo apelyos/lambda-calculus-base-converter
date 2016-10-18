@@ -7,7 +7,7 @@
 * The parser is based on FParsec (parser combinator library for F#): http://www.quanttec.com/fparsec/
 
 # Examples
-Examples for valid lambda-expressions:
+Examples for valid lambda-expression syntax:
 * "lambda abc.(cbacba)"
 * "lambda p.(p lambda x.lambda y.x)"
 * "lambda xyz.lambda d.(x(y(zd)))"
