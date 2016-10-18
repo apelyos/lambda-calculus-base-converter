@@ -1,13 +1,13 @@
 # F# Lambda calculus parser & IKBCS base expression converter
 
-IKBCS-Base converter is based on Dr. Mayer Goldberg algorithm found here:
+* IKBCS-Base converter is based on Dr. Mayer Goldberg algorithm found here:
 http://www.little-lisper.org/website/files/lambda-calculus-tutorial.pdf
-Advanced Programming Methods Course, 
-Ben-Gurion University of the Negev, 2016
+* Course: Advanced Programming Methods 
+* Ben-Gurion University of the Negev, 2016 Sems.B
 
-The parser is based on FParsec (parser combinator library for F#)
-http://www.quanttec.com/fparsec/
+* The parser is based on FParsec (parser combinator library for F#): http://www.quanttec.com/fparsec/
 
+# Examples
 Examples for valid lambda-expressions:
 * "lambda abc.(cbacba)"
 * "lambda p.(p lambda x.lambda y.x)"
